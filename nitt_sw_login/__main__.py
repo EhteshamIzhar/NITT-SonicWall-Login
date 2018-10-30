@@ -5,7 +5,7 @@ from argparse import ArgumentParser
 from nitt_sw_login import (setup_session, login, persist, update_rem_time,
                            keep_alive, logout, new_credentials)
 
-
+#hey hi
 def main():
 	arg_parser = ArgumentParser()
 	arg_parser.add_argument('--reset-credentials', help='Reset your credentials', action='store_true')
